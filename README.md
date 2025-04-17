@@ -57,6 +57,8 @@ kubectl rollout restart deployment nginx-deployment
 ### 4. Access the Website
 
   #### Use EC2 the external IP of the LoadBalancer.
+  ![image](https://github.com/user-attachments/assets/0d7ef084-d87a-429d-99fc-90a562766477)
+
 
 
 ## ConfigMap for Nginx Configuration
