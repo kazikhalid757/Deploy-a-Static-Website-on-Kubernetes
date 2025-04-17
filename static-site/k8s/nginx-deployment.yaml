@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: kazitamim/static-nginx:latest
+          image: kazitamim757/nginx-static-site:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           volumeMounts:
